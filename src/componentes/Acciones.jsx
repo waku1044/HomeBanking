@@ -13,13 +13,13 @@ const Acciones = () => {
             <Link to={`/Transferir/${id}`}>Transferir</Link>
           </div>
           <div>
-            <Link to="/Recargar">Recargar</Link>
+            <Link to={`/Recargar/${id}`}>Recargar</Link>
           </div>
           <div>
-            <Link to="/Pagar">Pagar</Link>
+            <Link to={`/Pagar/${id}`}>Pagar</Link>
           </div>
           <div>
-            <Link to="/Depositar">Ingresar</Link>
+            <Link to={`/Depositar/${id}`}>Depositar</Link>
           </div>
           <div>
             <Link to={`/Contactos/${id}`}
